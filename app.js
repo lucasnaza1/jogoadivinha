@@ -27,6 +27,6 @@ while (numeroUsuario != numeroSecreto) {
   }
 }
 
-let palavraTentiva = tentativas > 1 ? "tentativas" : "tentativa";
+let palavraTentativa = tentativas > 1 ? "tentativas" : "tentativa";
 
-alert(`Você acertou o número! com ${tentativas}  ${palavraTentiva}.`);
+alert(`Você acertou o número! com ${tentativas}  ${palavraTentativa}.`);
